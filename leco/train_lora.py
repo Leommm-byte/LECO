@@ -13,13 +13,13 @@ from tqdm import tqdm
 
 
 from lora import LoRANetwork, DEFAULT_TARGET_REPLACE, UNET_TARGET_REPLACE_MODULE_CONV
-import LECO.leco.train_util as train_util
-import model_util
-import prompt_util
-from prompt_util import PromptEmbedsCache, PromptEmbedsPair, PromptSettings
-import debug_util
-import config_util
-from config_util import RootConfig
+import .train_util as train_util
+import .model_util
+import .prompt_util
+from .prompt_util import PromptEmbedsCache, PromptEmbedsPair, PromptSettings
+import .debug_util
+import .config_util
+from .config_util import RootConfig
 
 import wandb
 
