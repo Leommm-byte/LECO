@@ -13,7 +13,7 @@ import torchvision
 
 from diffusers import AutoencoderKL
 
-import train_util
+import LECO.leco.train_util as train_util
 import model_util
 import config_util
 
